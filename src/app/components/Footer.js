@@ -27,13 +27,13 @@ export default function Footer() {
             <ul>
               <p className="font-semibold text-sm pb-4">Browse</p>
               <li className="text-[#5F6980] text-sm pb-3 font-normal cursor-pointer">
-                Home
+                <a href="/">Home</a>
               </li>
               <li className="text-[#5F6980] text-sm pb-3 font-normal cursor-pointer">
                 Features
               </li>
               <li className="text-[#5F6980] text-sm pb-3 font-normal cursor-pointer">
-                Pricing
+                <a href="/pricing">Pricing</a>
               </li>
             </ul>
           </div>
@@ -55,7 +55,7 @@ export default function Footer() {
             <ul>
               <p className="font-semibold text-sm pb-4">Information</p>
               <li className="text-[#5F6980] text-sm pb-3 font-normal cursor-pointer">
-                About us
+                <a href="/about">About us</a>
               </li>
               <li className="text-[#5F6980] text-sm pb-3 font-normal cursor-pointer">
                 Contact us

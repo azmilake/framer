@@ -140,8 +140,8 @@ export default function Navbar({ bg }) {
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="block px-4 py-2">
-                      Template
+                    <a href="/pricing" className="block px-4 py-2">
+                      Pricing
                     </a>
                   </li>
                 </ul>
