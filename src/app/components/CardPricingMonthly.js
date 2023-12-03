@@ -51,7 +51,9 @@ export default function CardPricingMonthly() {
       {pricingData.map((pricing, index) => (
         <div
           key={index}
-          className={`rounded-xl shadow-lg flex flex-col p-10 w-full md:w-[400px]`}
+          className={`rounded-xl shadow-lg flex flex-col p-10 w-full md:w-[400px] ${
+            pricing.featured ? 'bg-[#7E36F4] text-white' : ''
+          }`}
         >
           <div className="">
             <h1 className={`text-lg font-semibold`}>{pricing.title}</h1>
@@ -78,7 +80,8 @@ export default function CardPricingMonthly() {
                       fillRule="evenodd"
                       clipRule="evenodd"
                       d="M19.1921 0.464547C19.5826 0.855071 19.5826 1.48824 19.1921 1.87876L7.94909 13.1218C7.51951 13.5513 6.82303 13.5513 6.39345 13.1218L0.80731 7.53561C0.416786 7.14509 0.416786 6.51192 0.80731 6.1214C1.19783 5.73088 1.831 5.73088 2.22152 6.1214L7.17127 11.0711L17.7779 0.464547C18.1684 0.0740226 18.8016 0.0740229 19.1921 0.464547Z"
-                      fill="#000000"
+                      // fill="#000000"
+                      fill={pricing.featured ? '#FFFFFF' : '#000000'}
                     />
                   </svg>
                   {feature}
@@ -86,8 +89,8 @@ export default function CardPricingMonthly() {
               ))}
             </div>
             <button
-              className={`text-center border py-3 text-black rounded-full font-semibold text-base hover:bg-black hover:text-white ${
-                pricing.featured ? 'bg-black text-white' : ''
+              className={`text-center border py-3 bg-black rounded-full font-semibold text-base hover:bg-black hover:text-white ${
+                pricing.featured ? 'bg-white text-black' : 'text-white'
               }  font-semibold`}
             >
               {pricing.buttonText}
