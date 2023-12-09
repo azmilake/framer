@@ -96,10 +96,10 @@ export default function page() {
                 id={tab.id}
                 className={`${activeTab === tab.id ? '' : 'hidden'}`}
               >
-                <h3 className="text-2xl md:text-[63px] font-semibold">
+                <h3 className="text-2xl md:text-[63px] font-semibold mb-4">
                   {tab.title}
                 </h3>
-                <span className="flex items-center space-x-3 mt-4 mb-8 border-b pb-6">
+                <span className="flex items-center space-x-3 mt-8 mb-8 border-b pb-6">
                   <p className="border-[1px] border-[#5F6980] rounded-full px-3 py-1 text-sm font-semibold text-[#5F6980]">
                     V.1.3
                   </p>

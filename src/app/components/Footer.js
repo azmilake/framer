@@ -58,7 +58,7 @@ export default function Footer() {
                 <a href="/about">About us</a>
               </li>
               <li className="text-[#5F6980] text-sm pb-3 font-normal cursor-pointer">
-                Contact us
+                <a href="/contact">Contact us</a>
               </li>
               <li className="text-[#5F6980] text-sm pb-3 font-normal cursor-pointer">
                 404 page

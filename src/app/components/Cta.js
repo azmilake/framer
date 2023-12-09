@@ -3,7 +3,7 @@ import Marquee from 'react-fast-marquee'
 
 export default function Cta() {
   return (
-    <section className="mt-20 mb-40 container mx-auto px-5 lg:px-0" id="cta">
+    <section className="mt-20 mb-40 max-w-7xl mx-auto px-5 lg:px-0" id="cta">
       <div className="h-full md:h-[580px] bg-black rounded-[40px] flex justify-between text-white overflow-hidden">
         <div className="px-8 md:px-16 py-10 md:py-20 flex flex-col w-full md:w-1/2">
           <div className="mb-8">

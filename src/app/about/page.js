@@ -154,7 +154,7 @@ export default function About() {
               <div className="overflow-hidden rounded-3xl mb-4">
                 {' '}
                 <img
-                  src="https://source.unsplash.com/540x320?man"
+                  src="https://source.unsplash.com/540x320?employee"
                   className="h-[350px]"
                 />
               </div>
@@ -182,7 +182,7 @@ export default function About() {
               <div className="overflow-hidden rounded-3xl mb-4">
                 {' '}
                 <img
-                  src="https://source.unsplash.com/540x320?man"
+                  src="https://source.unsplash.com/540x320?employee"
                   className="h-[350px]"
                 />
               </div>
@@ -210,7 +210,7 @@ export default function About() {
               <div className="overflow-hidden rounded-3xl mb-4">
                 {' '}
                 <img
-                  src="https://source.unsplash.com/540x320?man"
+                  src="https://source.unsplash.com/540x320?employee"
                   className="h-[350px]"
                 />
               </div>
@@ -238,7 +238,7 @@ export default function About() {
               <div className="overflow-hidden rounded-3xl mb-4">
                 {' '}
                 <img
-                  src="https://source.unsplash.com/540x320?woman"
+                  src="https://source.unsplash.com/540x320?professional"
                   className="h-[350px]"
                 />
               </div>

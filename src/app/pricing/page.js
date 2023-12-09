@@ -90,7 +90,7 @@ export default function page() {
           </div>
         </section>
 
-        <section className="mt-10 mb-40 flex flex-col space-y-4 items-center justify-center text-center">
+        <section className="mt-10 mb-40 md:flex flex-col space-y-4 items-center justify-center text-center hidden">
           <div className="flex space-x-8">
             <svg
               xmlns="http://www.w3.org/2000/svg"

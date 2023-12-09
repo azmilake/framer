@@ -14,7 +14,7 @@ export default function Navbar({ bg }) {
 
   return (
     <nav className={`border-gray-200 bg-${bg} mb-16`}>
-      <div className="container flex flex-wrap items-center justify-between mx-auto p-4">
+      <div className="max-w-7xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
           <svg
             width="22"

@@ -21,7 +21,7 @@ export default function Home() {
           className="-mt-16 mb-20 bg-gray-100 pt-16 pb-20 px-5 lg:px-0"
           id="hero"
         >
-          <div className="container mx-auto flex flex-col md:flex-row items-center justify-between">
+          <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between">
             <div className="w-full md:w-6/12 flex flex-col mb-16 md:mb-0">
               <div className="">
                 {' '}
@@ -115,11 +115,11 @@ export default function Home() {
         </section>
 
         <section
-          className="mt-20 mb-40 container mx-auto px-5 lg:px-0"
+          className="mt-20 mb-40 max-w-7xl mx-auto px-5 lg:px-0"
           id="latest"
         >
           <h2 className="text-[28px] font-semibold mb-8">Latest Templates</h2>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-x-4 gap-y-8 md:gap-8">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-x-4 gap-y-8 md:gap-10">
             {CardData.slice(0, 8).map((card) => (
               <CardTemplate
                 key={card.id}
@@ -133,7 +133,7 @@ export default function Home() {
         </section>
 
         <section
-          className="mt-20 mb-40 container mx-auto px-5 lg:px-0"
+          className="mt-20 mb-40 max-w-7xl mx-auto px-5 lg:px-0"
           id="staff"
         >
           <h2 className="text-[28px] font-semibold mb-8">Staff Picks</h2>
@@ -151,7 +151,7 @@ export default function Home() {
         </section>
 
         <section
-          className="mt-20 mb-40 container mx-auto px-5 lg:px-0"
+          className="mt-20 mb-40 max-w-7xl mx-auto px-5 lg:px-0"
           id="testimonial"
         >
           <div className="flex flex-col justify-center text-center mb-10">

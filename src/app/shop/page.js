@@ -15,7 +15,7 @@ export default function Shop() {
       <Navbar bg="white" />
 
       <main className="px-5 lg:px-0">
-        <section className="w-full md:w-[900px] flex flex-col justify-center items-center container mx-auto mt-20">
+        <section className="w-full md:w-[900px] flex flex-col justify-center items-center max-w-7xl mx-auto mt-20">
           <h4 className="text-base md:text-xl font-semibold mb-3">
             Browse Templates
           </h4>
@@ -72,7 +72,7 @@ export default function Shop() {
           </div>
         </section>
 
-        <section className="container mx-auto mt-20">
+        <section className="max-w-7xl mx-auto mt-20">
           {/* <CarouselSlide title="Latest Templates" num={8} /> */}
           <CarouselSlide title="Latest Templates" show={2}>
             {CardData.slice(0, 8).map((card) => (
@@ -89,7 +89,7 @@ export default function Shop() {
           </CarouselSlide>
         </section>
 
-        <section className="container mx-auto mt-20">
+        <section className="max-w-7xl mx-auto mt-20">
           <CarouselSlide title="Best Seller" show={2}>
             {' '}
             {CardData.slice(0, 8).map((card) => (
@@ -106,7 +106,7 @@ export default function Shop() {
           </CarouselSlide>
         </section>
 
-        <section className="container mx-auto mt-40">
+        <section className="max-w-7xl mx-auto mt-40">
           <h2 className="text-[28px] font-semibold mb-8">Another Templates</h2>
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-y-8 gap-x-4 md:gap-y-8 md:gap-x-0">

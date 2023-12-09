@@ -47,7 +47,7 @@ const pricingData = [
 
 export default function CardPricingYearly() {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-4">
       {pricingData.map((pricing, index) => (
         <div
           key={index}
@@ -89,7 +89,7 @@ export default function CardPricingYearly() {
               ))}
             </div>
             <button
-              className={`text-center border py-3 bg-black rounded-full font-semibold text-base hover:bg-black hover:text-white ${
+              className={`text-center py-3 bg-black rounded-full font-semibold text-base hover:bg-black hover:text-white ${
                 pricing.featured ? 'bg-white text-black' : 'text-white'
               }  font-semibold`}
             >

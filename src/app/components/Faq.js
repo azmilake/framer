@@ -16,7 +16,7 @@ export default function Faq() {
 
   return (
     <section
-      className="mt-20 md:mb-20 mb-10 container mx-auto items-center justify-center flex flex-col px-5 lg:px-0"
+      className="mt-20 md:mb-20 mb-10 max-w-7xl mx-auto items-center justify-center flex flex-col px-5 lg:px-0"
       id="faq"
     >
       <div className="">
