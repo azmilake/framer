@@ -15,8 +15,8 @@ export default function About() {
     <>
       <Navbar />
 
-      <main className="container mx-auto px-5 lg:px-0">
-        <section className="w-full md:w-[900px] flex flex-col justify-center items-center container mx-auto mt-20">
+      <main className="max-w-7xl mx-auto px-5 lg:px-0">
+        <section className="w-full md:w-[900px] flex flex-col justify-center items-center max-w-7xl mx-auto mt-20">
           <h4 className="text-base md:text-xl font-semibold">
             Cafting user-centric interfaces
           </h4>
